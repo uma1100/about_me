@@ -1,3 +1,6 @@
+p{
+  padding: 0 20px 16px;
+}
 .portfolio-header {
   position: relative;
   background-image: url(images/header-bg.jpg);
