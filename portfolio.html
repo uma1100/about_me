@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" href="images/yuma_dot.jpg" />
 	<title>Portfolio</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="lazysizes.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -46,7 +47,7 @@
 			<div class="mdl-grid portfolio-max-width">
 				<div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
 					<div class="mdl-card__media">
-						<img class="article-image" src="images/iothackathon1.jpg" border="0" alt="">
+						<img src="images/iothackathon1lite.jpg" class="article-image lazyload" data-src="images/iothackathon1.jpg" border="0" alt="">
 					</div>
 					<div class="port-desc">
 						<div class="mdl-card__title">
@@ -85,7 +86,7 @@
 			<div class="mdl-grid portfolio-max-width">
 				<div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
 					<div class="mdl-card__media">
-						<img class="article-image" src="images/career2019.jpg" border="0" alt="">
+						<img class="article-image lazyload" src="images/career2019lite.jpg" data-src="images/career2019.jpg" border="0" alt="">
 					</div>
 					<div class="port-desc">
 						<div class="mdl-card__title">
@@ -165,7 +166,7 @@
 		<div id="back-curtain"></div>
 		<div  id="act_2" class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp act_article">
 			<div class="mdl-card__media">
-				<img class="act_image" src="./images/career2019.jpg" border="0" alt="">
+				<img class="act_image lazyload" data-src="./images/career2019.jpg" border="0" alt="">
 			</div>
 			<div class="mdl-grid portfolio-copy">
 				<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline port-title">コンセプト</h3>
@@ -181,7 +182,7 @@
 		</div>
 		<div  id="act_1" class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp act_article">
 			<div class="mdl-card__media">
-				<img class="act_image" src="./images/ISL新歓.png" border="0" alt="">
+				<img class="act_image lazyload" data-src="./images/ISL新歓.png" border="0" alt="">
 			</div>
 			<div class="mdl-grid portfolio-copy">
 				<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline port-title">コンセプト</h3>
