@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" href="images/yuma_dot.jpg" />
 	<title>Itonaga Yuma (mozzy)s HP</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="lazysizes.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -60,6 +61,15 @@
 								2018年4月に<a href="http://www.ece.ynu.ac.jp/">横浜国立大学 理工学部 電子情報システムEP</a>に編入学
 							</p>
 						</div>
+						<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">私について</h3>
+						<div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
+							<p>
+								<span id='keyword101' class='key'>
+									キーワード101
+								</span>を見る
+							</p>
+						</div>
+						
 
 
 
@@ -103,7 +113,7 @@
 								<span class="inline"> processing </span>
 							</p>
 						</div>
-
+						
 						<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">欲しいもの</h3>
 
 						<div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
@@ -126,14 +136,29 @@
 					</div>
 				</div>
 			</div>
-
-
-			
 			<footer class="mdl-mini-footer">
 				<div class="mdl-mini-footer__left-section">
 				</div>
 			</footer>
 		</main>
+		<div id="back-curtain"></div>		
+		<div  id="key101" class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp act_article">
+			<div class="mdl-card__media">
+				<img class="act_image lazyload" src="images/keywords101lite.png" data-src="images/keywords101.png" border="0" alt="">
+			</div>
+			<div class="mdl-grid portfolio-copy">
+				<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline port-title">キーワード101</h3>
+				<div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
+					<p class="port">
+						自分のキーワード101です。 サービス：<a href=https://coggle.it/diagram/XI82wthHehONE_5L/t/%E3%81%82%E3%81%AA%E3%81%9F%E3%82%92%E8%A1%A8%E3%81%99101%E3%82%AD%E3%83%BC%E3%83%AF%E3%83%BC%E3%83%89/1da9c0a91b1259dd9f79ddd6e33d3a2187b3ffa0d3c3cc99ada670628287b3f8>
+						coggle</a>
+					</p>
+				</div>
+				<button class="mdl-button mdl-js-button btn-center">
+					close
+				</button>
+			</div>
+		</div>
 	</div>
 	<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	<script src="script.js"></script>
