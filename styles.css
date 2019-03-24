@@ -232,6 +232,10 @@ img.act_image{
 	background-image: url(images/gmail.png);
 }
 
+.social-btn__wantedly {
+	background-image: url(images/wantedly_mark_white.png);
+}
+
 .social-btn {
     background-position: center;
     background-size: contain;
