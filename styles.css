@@ -215,3 +215,33 @@ img.act_image{
 	font-weight: 500;
 	text-decoration: underline;
 }
+
+.social-btn__blogger {
+    background-image: url(images/facebook-box.png);
+}
+
+.social-btn__twitter {
+	background-image: url(images/twitter-box.png);
+}
+
+.social-btn__github {
+	background-image: url(images/github-box.png);
+}
+
+.social-btn__gmail {
+	background-image: url(images/gmail.png);
+}
+
+.social-btn {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0 10px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    opacity: 1.0;
+    border-radius: 2px;
+}
+
