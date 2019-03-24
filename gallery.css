@@ -1,0 +1,23 @@
+@media(max-width: 479px){
+	.mdl-grid{
+		padding: 1px
+	}
+	footer{
+		margin-top: 7px;
+	}
+}
+.card-image.mdl-card {
+	margin: 8px;
+	width: calc(100% - 16px);
+	height: 100%;
+}
+.card-image > .mdl-card__actions {
+	height: 52px;
+	padding: 16px;
+	background: rgba(0, 0, 0, 0.8);
+}
+.card-image__filename {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
