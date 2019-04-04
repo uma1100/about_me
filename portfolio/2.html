@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="mozzy portfolio">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>ユカイ工学2019春インターン</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="../styles.css" />
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+			<div class="mdl-layout__header-row portfolio-logo-row">
+				<span class="mdl-layout__title">
+					<div class="portfolio-logo"></div>
+					<span class="mdl-layout__title">production</span>
+				</span>
+			</div>
+			<div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+				<nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+					<a class="mdl-navigation__link" href="../index.html">About</a>
+					<a class="mdl-navigation__link is-active" href="../portfolio.html">Portfolio</a>
+				</nav>
+			</div>
+		</header>
+		<div class="mdl-layout__drawer mdl-layout--small-screen-only">
+			<nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+				<a class="mdl-navigation__link" href="../index.html">About</a>
+				<a class="mdl-navigation__link is-active" href="../portfolio.html">Portfolio</a>
+			</nav>
+		</div>
+		<main class="mdl-layout__content">
+			<div class="mdl-grid portfolio-max-width">
+				<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+					<div class="mdl-card__title">
+						<h2 class="mdl-card__title-text">TALCCO~対話できるBOCCO~</h2>
+					</div>
+					<div class="mdl-card__media">
+						<img class="article-image" src="../images/talcco_header.JPG" border="0" alt="">
+					</div>
+					<div class="mdl-card__supporting-text">
+						<strong>担当</strong> <br>
+						<span>全部</span><br>
+						<strong>使用技術</strong> <br>
+						<span>GAS、python、AdobeXD、Raspberry_pi3、スプレッドシート、Codama</span>
+					</div>
+					<div class="mdl-grid portfolio-copy">
+						<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline port-title">コンセプト</h3>
+						<div class="mdl-card__supporting-text">
+								インターンのテーマが「<a href="https://codama.ux-xu.com/">Codama</a>を用いたプロトタイプの作成」というものだったので、<a href="https://www.ux-xu.com/">ユカイ工学</a>の製品である<a href="http://www.bocco.me/">BOCCO</a>と
+組み合わせてリアルタイムな対話ができるように。
+						</div>
+						<div class="mdl-cell mdl-cell--12-col">
+							<img class="article-image" src="../images/発表風景.JPG" border="0" alt="">
+						</div>
+						<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline port-title">構成</h3>
+						<div class="mdl-cell mdl-cell--12-col">
+							<img class="article-image-comp" src="https://camo.qiitausercontent.com/71fe2bf2e0915d5ab755a9d1a3359afc2f9f5cc4/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e616d617a6f6e6177732e636f6d2f302f3331363436382f65636237336639632d326263312d383865372d663563362d3439323136653134653063632e6a706567" border="0" alt="">
+						</div>
+						<div class="mdl-card__supporting-text">
+								Codamaの特徴であるノイズ軽減ができるマイクと音声方向の情報を取得し、<a href="https://dev.smt.docomo.ne.jp/?p=common_page&p_name=sebastien_teaser">Sebastien</a>を用いて音声をテキスト化し、<a href="https://dev.smt.docomo.ne.jp/?p=docs.api.page&api_name=natural_dialogue&p_name=api_usage_scenario">自然対話API</a>を用いて文章解釈をしてBOCCOが優しく話します。
+						</div>
+						<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline port-title">デモ動画 → <a href="https://vimeo.com/328210072">Vimeo</a></h3>
+						<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline port-title">反省点</h3>
+						<div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
+							<p class="port">
+								- 意外とdocomoの自然対話APIが余り賢くない<br>
+								- ラグがすごすぎる（10秒のラグなんて人前でデモは本来できないレベル）<br>
+								- 首だけではなく装置の下にモータをつけて体ごと向けることができればさらにインパクトが <br>
+								- BOCCOも<a href="https://qoobo.info/">Qoobo</a>も可愛かった
+							</p>
+						</div>
+						<div class="mdl-cell mdl-cell--6-col">
+								<img class="article-image" src="../images/talcco.JPG" border="0" alt="">
+						</div>
+						<h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline port-title">感想</h3>
+						<div class="mdl-card__supporting-text">
+							形あるものができ、最初の構想がほぼ実現でき、自分の思ったようにスケジュールが進んだところは自分でも評価できる点だと思う。 <br><br>
+							発表スライド：<a href="https://speakerdeck.com/yuma1100/ yukai-intern2019-04-03-d0280701-4b06-4e85-a3fc-40cf23ec9f71">SpeakerDeck</a> <br>
+							記事：Qiitaで公開予定です。<br>
+							ソースコード：<a href="https://github.com/yuma1100/talcco">Github</a><br>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="mdl-mini-footer">
+				<div class="mdl-mini-footer__left-section">
+					<button class="mdl-mini-footer--social-btn social-btn social-btn__gmail" onclick="location.href='mailto:yumayuma0322@gmail.com'">
+						<span class="visuallyhidden">Gmail</span>
+					</button>
+					<button class="mdl-mini-footer--social-btn social-btn social-btn__twitter" onclick="location.href='https://twitter.com/mozzz111010'">
+						<span class="visuallyhidden">Twitter</span>
+					<button class="mdl-mini-footer--social-btn social-btn social-btn__github" onclick="location.href='https://github.com/yuma1100'">
+						<span class="visuallyhidden">Github</span>
+					</button>
+					<button class="mdl-mini-footer--social-btn social-btn social-btn__wantedly" onclick="location.href='https://www.wantedly.com/users/66228158'">
+						<span class="visuallyhidden">Wantedly</span>
+					</button>
+				</div>
+			</footer>
+		</main>
+	</div>
+	<script src="https://code.getmdl.io/1.0.6/material.min.js"></script>
+	<script src="../script.js"></script>
+</body>
+
+</html>
