@@ -243,6 +243,9 @@ img.act_image{
 .social-btn__linkedin {
 	background-image: url(images/linkedin-box.png);
 }
+.social-btn__instagram {
+	background-image: url(images/instagram.png);
+}
 
 .social-btn {
     background-position: center;
