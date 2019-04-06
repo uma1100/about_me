@@ -1,0 +1,30 @@
+
+<html>
+	<head>
+	  <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+	</head>
+	<body>
+		<a-scene>
+			<a-entity camera look-controls>
+				<a-entity cursor="fuse: true; timeout: 3000;" position="0 0 -2"
+								geometry="primitive: ring; radiusOuter: 0.05; radiusInner: 0; segmentsTheta: 45"
+								material="color: #000000">
+				</a-entity>
+			</a-entity>
+			<!-- sky -->
+			<a-sky color="#fff" material="color:#fff;shader:flat" geometry="primitive:sphere;radius:5000;segmentsWidth:64;segmentsHeight:64" scale="-1 1 1"></a-sky>
+      
+			<!-- ground -->
+			<a-entity material="src:#tile; repeat:25 50.4; metalness:0.1;" position="0 0 0" rotation="-90 0 0" geometry="primitive:plane;width:20;height:20"></a-entity>
+	  
+			<!-- monet -->
+			<a-entity>
+			  <a-plane id="yumalogo" class="picture" color="#FFF" src="https://scontent-nrt1-1.cdninstagram.com/vp/1d0cf13cab7203060e46b4fce0c8287d/5D3F21EE/t51.2885-15/e35/56990447_834422503578742_7888152441377060075_n.jpg?_nc_ht=scontent-nrt1-1.cdninstagram.com" position="0 2.2 -3" height="1.8465" width="1.5">
+			  </a-plane>
+			  <a-text value="yumalogo_txt" id="yumalogo_txt" color="blue" position="0 5 -5" scale="2 2 2" visible="false"></a-text>
+			</a-entity>
+		</a-scene>
+		<script src="../js/museum.js"></script>
+	</body>
+</html>
+  
